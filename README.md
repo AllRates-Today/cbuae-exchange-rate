@@ -170,9 +170,9 @@ Pass `{ symbol: 'USD' }` instead of `source`/`target` to get the raw published r
 
 ## 🗺️ Currencies covered
 
-Central Bank of the UAE currently publishes rates covering **75 currencies** (as of the latest table):
+Central Bank of the UAE currently publishes rates covering **75 currencies** against the AED (as of the latest table):
 
-`ARS` · `AUD` · `AZN` · `BDT` · `BGN` · `BHD` · `BND` · `BRL` · `BWP` · `BYN` · `CAD` · `CHF` · `CLP` · `CNH` · `CNY` · `COP` · `CZK` · `DKK` · `DZD` · `EGP` · `ETB` · `EUR` · `GBP` · `HKD` · `HUF` · `IDR` · `ILS` · `INR` · `IQD` · `ISK` · `JOD` · `JPY` · `KES` · `KRW` · `KWD` · `KZT` · `LKR` · `LYD` · `MAD` · `MKD` · `MUR` · `MXN` · `MYR` · `NGN` · `NOK` · `NPR` · `NZD` · `OMR` · `PEN` · `PHP` · `PKR` · `PLN` · `QAR` · `RON` · `RSD` · `RUB` · `SAR` · `SDG` · `SEK` · `SGD` · `SYP` · `THB` · `TMT` · `TND` · `TRY` · `TTD` · `TWD` · `TZS` · `UGX` · `USD` · `UZS` · `VND` · `YER` · `ZAR` · `ZMW`
+🇦🇷 `ARS` · 🇦🇺 `AUD` · 🇦🇿 `AZN` · 🇧🇩 `BDT` · 🇧🇬 `BGN` · 🇧🇭 `BHD` · 🇧🇳 `BND` · 🇧🇷 `BRL` · 🇧🇼 `BWP` · 🇧🇾 `BYN` · 🇨🇦 `CAD` · 🇨🇭 `CHF` · 🇨🇱 `CLP` · 🇨🇳 `CNH` · 🇨🇳 `CNY` · 🇨🇴 `COP` · 🇨🇿 `CZK` · 🇩🇰 `DKK` · 🇩🇿 `DZD` · 🇪🇬 `EGP` · 🇪🇹 `ETB` · 🇪🇺 `EUR` · 🇬🇧 `GBP` · 🇭🇰 `HKD` · 🇭🇺 `HUF` · 🇮🇩 `IDR` · 🇮🇱 `ILS` · 🇮🇳 `INR` · 🇮🇶 `IQD` · 🇮🇸 `ISK` · 🇯🇴 `JOD` · 🇯🇵 `JPY` · 🇰🇪 `KES` · 🇰🇷 `KRW` · 🇰🇼 `KWD` · 🇰🇿 `KZT` · 🇱🇰 `LKR` · 🇱🇾 `LYD` · 🇲🇦 `MAD` · 🇲🇰 `MKD` · 🇲🇺 `MUR` · 🇲🇽 `MXN` · 🇲🇾 `MYR` · 🇳🇬 `NGN` · 🇳🇴 `NOK` · 🇳🇵 `NPR` · 🇳🇿 `NZD` · 🇴🇲 `OMR` · 🇵🇪 `PEN` · 🇵🇭 `PHP` · 🇵🇰 `PKR` · 🇵🇱 `PLN` · 🇶🇦 `QAR` · 🇷🇴 `RON` · 🇷🇸 `RSD` · 🇷🇺 `RUB` · 🇸🇦 `SAR` · 🇸🇩 `SDG` · 🇸🇪 `SEK` · 🇸🇬 `SGD` · 🇸🇾 `SYP` · 🇹🇭 `THB` · 🇹🇲 `TMT` · 🇹🇳 `TND` · 🇹🇷 `TRY` · 🇹🇹 `TTD` · 🇹🇼 `TWD` · 🇹🇿 `TZS` · 🇺🇬 `UGX` · 🇺🇸 `USD` · 🇺🇿 `UZS` · 🇻🇳 `VND` · 🇾🇪 `YER` · 🇿🇦 `ZAR` · 🇿🇲 `ZMW`
 
 ## ⚖️ Published vs derived rates
 
