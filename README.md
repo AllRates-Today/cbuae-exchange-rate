@@ -42,7 +42,7 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-13** by Central Bank of the UAE — 75 rates, first 60 shown. Updated 2026-10-13.
+Published **2026-10-13** by Central Bank of the UAE — 75 rates, first 60 shown. Updated 2026-10-14.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -162,7 +162,7 @@ const pair = await getRate('USD', 'AED', { apiKey: 'art_live_...' });
 {
   bank: 'cbuae',
   name: 'Central Bank of the UAE',
-  rate_date: '2026-10-12',   // Central Bank of the UAE's own publication date
+  rate_date: '2026-10-13',   // Central Bank of the UAE's own publication date
   source: 'USD',
   target: 'AED',
   rate: 3.6725,
@@ -190,7 +190,7 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'cbuae',
   name: 'Central Bank of the UAE',
-  rate_date: '2026-10-12',
+  rate_date: '2026-10-13',
   rates: [
     { "base": "USD", "quote": "AED", "type": "reference", "value": 3.6725 },
     // … the rest of the published table (75 currencies vs AED)
@@ -232,7 +232,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'cbuae-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'AED', from: '2026-01-01', to: '2026-10-12' },
+  { source: 'USD', target: 'AED', from: '2026-01-01', to: '2026-10-13' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -245,11 +245,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'AED',
   from: '2026-01-01',
-  to: '2026-10-12',
+  to: '2026-10-13',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-12', rate: 3.6725, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-13', rate: 3.6725, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -368,9 +368,9 @@ getRate('USD', 'AED', { apiKey: 'art_live_...' }).then((pair) => console.log(pai
 
 Need the whole archive rather than an API call? The same published tables are mirrored daily as open data:
 
-- Hugging Face: [AllRates/central-bank-exchange-rates](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) — one CSV per institution (`rates/cbuae.csv`)
+- Hugging Face: [AllRatesToday/central-bank-exchange-rates](https://huggingface.co/datasets/AllRatesToday/central-bank-exchange-rates) — one CSV per institution (`rates/cbuae.csv`)
 - Kaggle: [allratestoday/central-bank-exchange-rates](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates)
-- CDN JSON: `https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbuae/latest.json`
+- Raw JSON on GitHub: `https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cbuae/latest.json`
 
 ## 🔗 Links
 
