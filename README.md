@@ -31,7 +31,75 @@ Get a free API key at [allratestoday.com/register](https://allratestoday.com/reg
 The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-_The table is filled in by the daily workflow._
+<details>
+<summary>Table as text: published 2026-11-13 by Central Bank of the UAE — 75 rates, first 60 shown. Updated 2026-11-15.</summary>
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| ARS | AED | reference | 0.002373 |
+| AUD | AED | reference | 2.494397 |
+| AZN | AED | reference | 2.160294 |
+| BDT | AED | reference | 0.029526 |
+| BGN | AED | reference | 2.205706 |
+| BHD | AED | reference | 9.738796 |
+| BND | AED | reference | 2.851541 |
+| BRL | AED | reference | 0.648382 |
+| BWP | AED | reference | 0.262172 |
+| BYN | AED | reference | 1.223555 |
+| CAD | AED | reference | 2.577917 |
+| CHF | AED | reference | 4.381413 |
+| CLP | AED | reference | 0.003673 |
+| CNH | AED | reference | 0.550278 |
+| CNY | AED | reference | 0.550451 |
+| COP | AED | reference | 0.001108 |
+| CZK | AED | reference | 0.166169 |
+| DKK | AED | reference | 0.542868 |
+| DZD | AED | reference | 0.026831 |
+| EGP | AED | reference | 0.068748 |
+| ETB | AED | reference | 0.022375 |
+| EUR | AED | reference | 4.058459 |
+| GBP | AED | reference | 4.860003 |
+| HKD | AED | reference | 0.468085 |
+| HUF | AED | reference | 0.011112 |
+| IDR | AED | reference | 0.000202 |
+| ILS | AED | reference | 1.143867 |
+| INR | AED | reference | 0.038968 |
+| IQD | AED | reference | 0.002422 |
+| ISK | AED | reference | 0.029715 |
+| JOD | AED | reference | 5.179831 |
+| JPY | AED | reference | 0.022966 |
+| KES | AED | reference | 0.02825 |
+| KRW | AED | reference | 0.002748 |
+| KWD | AED | reference | 11.900518 |
+| KZT | AED | reference | 0.008241 |
+| LKR | AED | reference | 0.011042 |
+| LYD | AED | reference | 0.569742 |
+| MAD | AED | reference | 0.369616 |
+| MKD | AED | reference | 0.065922 |
+| MUR | AED | reference | 0.077121 |
+| MXN | AED | reference | 0.198093 |
+| MYR | AED | reference | 0.898471 |
+| NGN | AED | reference | 0.00273 |
+| NOK | AED | reference | 0.384358 |
+| NPR | AED | reference | 0.024355 |
+| NZD | AED | reference | 2.032149 |
+| OMR | AED | reference | 9.538466 |
+| PEN | AED | reference | 1.079195 |
+| PHP | AED | reference | 0.057549 |
+| PKR | AED | reference | 0.013281 |
+| PLN | AED | reference | 0.920634 |
+| QAR | AED | reference | 1.007545 |
+| RON | AED | reference | 0.758765 |
+| RSD | AED | reference | 0.03449 |
+| RUB | AED | reference | 0.044699 |
+| SAR | AED | reference | 0.97855 |
+| SDG | AED | reference | 0.006119 |
+| SEK | AED | reference | 0.365256 |
+| SGD | AED | reference | 2.851541 |
+
+</details>
+
+[Full table on the Central Bank of the UAE rates page](https://allratestoday.com/central-bank-rates-api/cbuae/) · Source: [Official rates published by CBUAE, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbuae/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
 
 ## 📦 Installation
